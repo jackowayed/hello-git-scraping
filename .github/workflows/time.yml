@@ -24,8 +24,8 @@ jobs:
 
       - name: Run a one-line script
         run: |-
-          mkdir -p site/
-          date > site/index.html
+          mkdir -p docs/
+          date > docs/index.html
 
       # Runs a set of commands using the runners shell
       - name: Commit and push if it changed
